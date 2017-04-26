@@ -1,0 +1,17 @@
+node 'puppetagent.test.org'
+{
+	package 
+	{
+	'git' :
+	name => 'git',
+	ensure => installed,
+	}
+
+	package 
+	{
+	'apache2' :
+	name => 'apache2',
+	ensure => installed,
+	}
+
+}
